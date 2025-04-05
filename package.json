@@ -1,0 +1,29 @@
+{
+  "name": "job-searchoor",
+  "version": "0.1.0",
+  "description": "A tool to search for jobs",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build index.ts --outdir dist --target node && shx chmod +x dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "author": "alex t. <aletapia@proton.me>",
+  "license": "MIT",
+  "bin": {
+    "job-searchoor": "dist/index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "shx": "^0.4.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@valibot/to-json-schema": "^1.0.0",
+    "arktype": "^2.1.17",
+    "effect": "^3.14.6",
+    "fastmcp": "^1.21.0"
+  }
+}
