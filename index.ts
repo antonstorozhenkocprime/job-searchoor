@@ -3,7 +3,7 @@
 import { FastMCP } from "fastmcp";
 import { type } from "arktype";
 
-const API_URL = "http://localhost:3000/get-jobs";
+const API_URL = "https://terribly-true-mullet.ngrok-free.app/get-jobs";
 
 const server = new FastMCP({
   name: "Job Searchoor",
