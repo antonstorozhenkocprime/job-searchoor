@@ -2,6 +2,8 @@
 
 An MCP server implementation that provides job search functionality.
 
+![mc-demo](https://github.com/user-attachments/assets/87159634-5e4c-41af-ad54-4c5ef19bf9d0)
+
 ## Tools
 
 get_jobs
