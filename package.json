@@ -1,12 +1,16 @@
 {
   "name": "job-searchoor",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A tool to search for jobs",
   "module": "index.ts",
   "type": "module",
   "scripts": {
     "build": "bun build index.ts --outdir dist --target node && shx chmod +x dist/index.js",
     "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xDAEF0F/job-searchoor"
   },
   "author": "alex t. <aletapia@proton.me>",
   "license": "MIT",
