@@ -1,4 +1,5 @@
 # Job Searchoor MCP Server
+[![Twitter Follow](https://img.shields.io/twitter/follow/Alex?style=social)](https://x.com/0xdaef0f)
 
 An MCP server implementation that provides job search functionality.
 
