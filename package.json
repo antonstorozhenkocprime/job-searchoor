@@ -1,6 +1,6 @@
 {
   "name": "job-searchoor",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A tool to search for jobs",
   "module": "index.ts",
   "type": "module",
@@ -10,6 +10,12 @@
   },
   "author": "alex t. <aletapia@proton.me>",
   "license": "MIT",
+  "keywords": [
+    "mcp-server",
+    "mcp",
+    "search jobs",
+    "FastMCP"
+  ],
   "bin": {
     "job-searchoor": "dist/index.js"
   },
