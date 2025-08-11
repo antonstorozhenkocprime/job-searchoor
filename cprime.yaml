@@ -11,7 +11,7 @@ args:
 env: []
 
 description: A Model Context Protocol server that provides web content fetching capabilities. This server enables LLMs to retrieve and process content from web pages, converting HTML to markdown for easier consumption.
-owner: Ranjit Menon
+owner: Anton Storozhenko
 license: Apache-2.0
-package: fetch-mcp
+package: job-searchoor
 vendor: Cprime
