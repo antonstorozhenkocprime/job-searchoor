@@ -1,0 +1,17 @@
+config_schema:
+  type: object
+  required: []
+  properties: {}
+
+server_name: job-searchoor
+command: npx
+args:
+  - -y
+  - job-searchoor
+env: []
+
+description: A Model Context Protocol server that provides web content fetching capabilities. This server enables LLMs to retrieve and process content from web pages, converting HTML to markdown for easier consumption.
+owner: Ranjit Menon
+license: Apache-2.0
+package: fetch-mcp
+vendor: Cprime
